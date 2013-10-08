@@ -4,7 +4,7 @@ $(document).ready ->
   # realisticTypewriter.minimumInitialDelay = 0;
 
   # realisticTypewriter.minimumCharactersPerSecond = 1500
-  # realisticTypewriter.maximumCharactersPerSecond = 2500
+  realisticTypewriter.maximumCharactersPerSecond = 100
 
   velocityMain = "1000"
   velocity = "50"
