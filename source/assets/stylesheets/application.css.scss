@@ -2,10 +2,8 @@
 
 @import "normalize";
 @import "colors";
-@import "settings";
-@import "vars-typeplate";
-
-@import "main";
+@import "foundation/settings";
+@import "typeplate/settings";
 
 // Foundation Components
 @import
@@ -14,4 +12,9 @@
   "foundation/visibility",
   "foundation/type";
 
-@import "typeplate";
+// Typography
+@import "typeplate/typeplate";
+
+@import
+  "style",
+  "animate";
