@@ -7,7 +7,9 @@
 
 # THANKS
 
-    <name>
+    Foundation by zurb
+    Typeplate
+    Gem Middleman
 
 # TECHNOLOGY COLOPHON
 
