@@ -8,18 +8,21 @@ html
 	meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'
 
 	meta property='og:description' content="A fun way to make the connection between breaking points in CSS media queries and Javascript files."
-	meta property='og:image' content='http://hoooooo.fr/images/pokeball.png'
+	meta property='og:image' content="#{ image_path 'motus_logo.png' }"
 	meta property='og:site_name' content='flexbox'
 	meta property='og:title' content=(data.page.title)
 	meta property='og:type' content='website'
 	meta property='og:url' content='http://hoooooo.fr'
 
-	link href='favicon.png' rel='shortcut icon' type='image/vnd.microsoft.icon'
-	= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Kreon|PT+Sans&effect=fire-animation'
+	link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"
+	link rel="icon" href="/favicon.ico" type="image/x-icon"
+
+	= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Oswald:700,400'
 	= stylesheet_link_tag 'application'
   body
 
 	== yield
+	= partial 'footer'
 
 	script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
 	= javascript_include_tag 'application'

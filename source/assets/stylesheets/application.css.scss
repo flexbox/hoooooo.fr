@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
 @import "normalize";
+@import "colors";
+@import "settings";
+@import "vars-typeplate";
 
 @import "main";
+
+// Foundation Components
+@import
+  "foundation/global",
+  "foundation/grid",
+  "foundation/visibility",
+  "foundation/type";
+
+@import "typeplate";
