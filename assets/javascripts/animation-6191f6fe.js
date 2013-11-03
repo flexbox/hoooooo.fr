@@ -1,1 +1,0 @@
-!function(){$(document).ready(function(){var n,e;return e=1e3,n=5,$("#one").delay(e).slideDown(function(){return $("#two").delay(e).slideDown(function(){return $("#three").slideDown(function(){return $("#four").slideDown(function(){return $("#five").slideDown()})})})})})}.call(this);
