@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+# WAT gem for ubuntu
+gem 'therubyracer'
+
 gem 'middleman',            '~>3.1.5'
 gem 'middleman-gh-pages'
 gem 'middleman-livereload', '~> 3.1.0'
